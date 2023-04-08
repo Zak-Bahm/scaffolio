@@ -1,0 +1,33 @@
+<section id="education" class="content-row row p-xl-3 p-1">
+    <h1 class="content-title section-title underline p-2">
+        {{ general.sectionTitles.education|length > 0 ? general.sectionTitles.education : 'Education' }}
+    </h1>
+    <div class="container-fluid">
+    {% for e in education %}
+        <div class="img-header mb-3">
+            <img src="{{ e.img }}" class="img-fluid d-none d-sm-block">
+            <div class="job-title">
+                <h3 class="d-flex justify-content-between align-items-center mb-2">
+                    <span class="fw-bold">{{ e.school }}</span>
+                    <span class="job-date">{{ e.gradDate }}</span>
+                </h3>
+                <h5 class="d-flex justify-content-between align-items-center m-0">
+                    <span class="fw-bold">
+                        {{ e.degree }},
+                        <span class="fw-normal">
+                        {{ e.field }}
+                        </span>
+                    </span>
+                    <span>
+                        {% if e.gpa|length > 0 %}
+                        GPA:
+                        {{ e.gpa }}
+                        {% endif %}
+                    </span>
+                </h5>
+            </div>
+        </div>
+        <p class="text-muted mb-4">{{ e.honors|join(', ') }}</p>
+    {% endfor %}
+    </div>
+</section>

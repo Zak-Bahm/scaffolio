@@ -1,0 +1,17 @@
+<section id="certifications" class="content-row row p-xl-3 p-1">
+    <h1 class="content-title section-title underline p-2">
+        {{ general.sectionTitles.certifications|length > 0 ? general.sectionTitles.certifications : 'Certifications' }}
+    </h1>
+    <div class="certs col-12">
+        {% for c in certifications %}
+            <a href="{{ c.url }}" target="_blank">
+                <strong>
+                    <img src="{{ c.img }}" class="img-fluid me-3">
+                    {{ c.name }}
+                </strong>
+
+                <span>{{ c.date }}</span>
+            </a>
+        {% endfor %}
+    </div>
+</section>

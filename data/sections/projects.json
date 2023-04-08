@@ -1,0 +1,24 @@
+[
+    {
+        "name": "NextWave",
+        "img": "img/nextwave.jpeg",
+        "url": "https://jane.com/project",
+        "github": "https://github.com/jane-doe/project",
+        "badges": [
+            "NextJS",
+            "Javascript",
+            "HTML"
+        ],
+        "description": "NextWave is a cutting-edge web development project that utilizes NextJS, a popular React-based framework, to build lightning-fast and highly dynamic web applications. This project aims to showcase the full potential of NextJS by incorporating advanced features like server-side rendering, static site generation, and optimized performance to deliver an unparalleled user experience."
+    },
+    {
+        "name": "K-Tracker",
+        "img": "img/k-tracker.jpeg",
+        "badges": [
+            "Kotlin",
+            "Android",
+            "Java"
+        ],
+        "description": "K-Tracker is a productivity-focused Android app built using Kotlin, a modern programming language designed for Android development. This app allows users to track their daily tasks, set reminders, and monitor their progress towards achieving their goals, helping them stay organized and on track with their personal and professional endeavors."
+    }
+]

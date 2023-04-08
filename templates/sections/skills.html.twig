@@ -1,0 +1,13 @@
+<section id="skills" class="content-row row p-xl-3 p-1">
+    <h1 class="content-title section-title underline p-2">
+        {{ general.sectionTitles.skills|length > 0 ? general.sectionTitles.skills : 'Technical Skills' }}
+    </h1>
+    <div class="container-fluid">
+    {% for s in skills %}
+        <div class="row">
+            <strong class="col-12 col-md-3">{{ s.header }}</strong>
+            <span class="col-12 col-md-9">{{ s.list|join(', ') }}</span>
+        </div>
+    {% endfor %}
+    </div>
+</section>

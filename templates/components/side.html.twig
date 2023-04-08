@@ -1,0 +1,33 @@
+<div class="side col-xxl-3 col-xl-4 col-12 p-3">
+	<div class="row align-items-center w-100">
+		<div class="profile-img col-xl-12 col-4">
+			<img src="{{ general.profileImg }}" class="img-fluid back-shadow" alt="">
+		</div>
+		<div class="profile-content col-xl-12 col-8">
+			<h1 class="m-0 mt-xl-5 name">{{ general.name }}</h1>
+			<h5 class="mt-3 fs-4 d-xl-block d-none">{{ general.tagline }}</h5>
+			<div class="profile-links">
+				{% if general.email %}
+					<a title="Email" onclick="window.open('mailto:' + atob('{{ general.email }}'))">
+						<i class="fa-solid fa-envelope fa-2x text-shadow"></i>
+					</a>
+				{% endif %}
+				{% if general.linkedin %}
+					<a title="LinkedIn" href="{{ general.linkedin }}" target="_blank">
+						<i class="fa-brands fa-linkedin fa-2x text-shadow"></i>
+					</a>
+				{% endif %}
+				{% if general.github %}
+					<a title="Github" href="{{ general.github }}" target="_blank">
+						<i class="fa-brands fa-github fa-2x text-shadow"></i>
+					</a>
+				{% endif %}
+				{% if general.resume %}
+					<a title="Résumé" href="{{ general.resume }}" target="_blank">
+						<i class="fa-solid fa-file-lines fa-2x text-shadow"></i>
+					</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>

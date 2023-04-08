@@ -1,0 +1,43 @@
+{
+    "name": "Jane Doe",
+    "title": "Jane Doe | Software Engineer",
+    "tagline": "Software Engineer, Web Developer",
+    "url": "https://www.jane.com/",
+    "logo": "/img/logo-card.png",
+    "profileImg": "img/me.jpg",
+    "description": "I am a versatile software developer with expertise in various programming languages, databases/APIs, frameworks, and software such as AWS, Git, Github, and Docker.",
+    "email": "jane@email.com",
+    "linkedin": "https://www.linkedin.com/in/jane-doe",
+    "github": "https://github.com/jane-doe",
+    "resume": "./resume.pdf",
+    "sectionOrder": [
+        "about",
+        "skills",
+        "education",
+        "experience",
+        "certifications",
+        "projects"
+    ],
+    "sectionTitles": {
+        "about": "About",
+        "skills": "Technical Skills",
+        "experience": "Experience",
+        "education": "Education",
+        "certifications": "Certifications",
+        "projects": "Projects"
+    },
+    "colors": {
+        "page-bg": "#e0e6ec",
+        "card-bg": "#f3f4f2",
+
+        "main-txt": "#212529",
+        "title-txt": "#1c1718",
+
+        "side-bg": "#304b89",
+        "side-txt": "#f3f4f2",
+
+        "accent": "#bc848f",
+        "accent-fade": "#bc848f73",
+        "link": "#d84238"
+    }
+}

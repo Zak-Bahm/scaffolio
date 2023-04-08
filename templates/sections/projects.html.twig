@@ -1,0 +1,42 @@
+<section id="projects" class="content-row row p-xl-3 p-1">
+    <h1 class="content-title section-title underline p-2">
+        {{ general.sectionTitles.projects|length > 0 ? general.sectionTitles.projects : 'Projects' }}
+    </h1>
+
+    {% for p in projects %}
+        <div class="project-card col-12 col-md-6 mb-3">
+        <div class="card back-shadow">
+            <img src="{{ p.img }}" class="card-img-top" alt="">
+            <div class="card-body">
+            <h3 class="card-title fw-bold d-flex justify-content-between align-items-center">
+                <span>{{ p.name }}</span>
+
+                <span>
+                {% if p.github|length > 0 %}
+                    <a href="{{ p.github }}" target="_blank" title="Project Github">
+                        <i class="fa-brands fa-github fa-lg"></i>
+                    </a>
+                {% endif %}
+
+                {% if p.url|length > 0 %}
+                    <a href="{{ p.url }}" target="_blank" title="Project Link">
+                        <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+                    </a>
+                {% endif %}
+                </span>
+            </h3>
+
+            <div class="details-badges">
+                {% for b in p.badges %}
+                    <span class="badge rounded-pill text-bg-accent">{{ b }}</span>
+                {% endfor %}
+            </div>
+
+            <p class="card-text mt-4">
+                {{ p.description|raw }}
+            </p>
+            </div>
+        </div>
+        </div>
+    {% endfor %}
+</section>

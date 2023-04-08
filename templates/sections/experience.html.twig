@@ -1,0 +1,47 @@
+
+<section id="experience" class="content-row row p-xl-3 p-1">
+    <h1 class="content-title section-title underline p-2">
+        {{ general.sectionTitles.experience|length > 0 ? general.sectionTitles.experience : 'Experience' }}
+    </h1>
+    {% for e in experience %}
+        <div class="card back-shadow {% if not loop.first %}mt-3{% endif %}" >
+        <div class="card-body">
+            <div class="card-top img-header">
+            <img src="{{ e.img }}" class="img-fluid d-none d-sm-block">
+            <div class="job-title">
+                <h3 class="card-title d-flex justify-content-between align-items-center">
+                <span class="fw-bold">{{ e.position }}</span>
+                <span class="job-date">{{ e.dateRange }}</span>
+                </h3>
+                <h5 class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">{{ e.company }}</span>
+                <span>{{ e.location }}</span>
+                </h5>
+            </div>
+            </div>
+
+            <div class="details-badges">
+                {% for b in e.badges %}
+                    <span class="badge rounded-pill text-bg-accent">{{ b }}</span>
+                {% endfor %}
+            </div>
+
+            <p class="card-text mt-4">
+                {{ e.description|raw }}
+            </p>
+
+            <div class="collapse" id="{{ e.slug }}Details">
+            <ul>
+                {% for s in e.specifics %}
+                    <li>{{ s|raw }}</li>
+                {% endfor %}
+            </ul>
+            </div>
+
+            <a class="details-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#{{ e.slug }}Details" aria-expanded="false" aria-controls="{{ e.slug }}Details">
+            <i class="fa-solid fa-caret-down"></i>
+            </a>
+        </div>
+        </div>
+    {% endfor %}
+</section>
