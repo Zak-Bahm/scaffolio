@@ -1,0 +1,31 @@
+{
+  "name": "scaffolio",
+  "version": "1.0.0",
+  "description": "Generate a beautiful, responsive portfolio website from a few JSON files.",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zak-Bahm/scaffolio.git"
+  },
+  "keywords": [
+    "Resume",
+    "Portfolio",
+    "Twig",
+    "Website"
+  ],
+  "author": "Zacharias Bahm <zakbahm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zak-Bahm/scaffolio/issues"
+  },
+  "homepage": "https://github.com/Zak-Bahm/scaffolio#readme",
+  "dependencies": {
+    "twig": "^1.16.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
