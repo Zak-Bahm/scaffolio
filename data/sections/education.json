@@ -1,15 +1,13 @@
 [
     {
-        "school": "Elysium University",
+        "school": "School Name",
         "img": "img/elysium.png",
-        "degree": "Bachelor of Science",
-        "field": "Computer Science",
-        "gradDate": "2019",
+        "degree": "Degree Name",
+        "field": "Degree Field",
+        "gradDate": "Date",
         "gpa": "4.0",
         "honors": [
-            "Dean's List",
-            "President's Award",
-            "Computer Science Honors Society"
+            "Honor"
         ]
     }
 ]

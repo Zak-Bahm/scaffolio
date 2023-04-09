@@ -1,41 +1,17 @@
 [
     {
-        "position": "Software Developer",
-        "dateRange": "January 2019 - Present",
+        "position": "Position",
+        "dateRange": "Start - End",
         "img": "img/acme.png",
-        "company": "Acme Corp",
-        "slug": "acme",
-        "location": "San Francisco, California",
-        "description": "Developed and maintained multiple projects, including a real-time chat application and a CRM system, and implemented RESTful APIs using Node.js, MongoDB, and Redis.",
+        "company": "Company Name",
+        "slug": "company",
+        "location": "Location",
+        "description": "Short description of what you did there",
         "specifics": [
-            "Developing and maintaining multiple projects, including a real-time chat application and a CRM system",
-            "Implementing RESTful APIs using Node.js, MongoDB, and Redis",
-            "Collaborating with cross-functional teams to identify and resolve issues in a timely manner"
+            "Specific thing you did"
         ],
         "badges": [
-            "Node.js",
-            "MongoDB",
-            "Redis",
-            "RESTful APIs"
-        ]
-    },
-    {
-        "position": "Software Engineer",
-        "dateRange": "July 2017 - December 2018",
-        "img": "img/xyz.png",
-        "company": "XYZ Inc.",
-        "slug": "xyz",
-        "location": "New York City, New York",
-        "description": "Designed and developed backend systems using Golang and Docker, implemented microservices architecture to improve application scalability, and worked closely with product managers and UX designers to ensure optimal user experience and functionality of the software.",
-        "specifics": [
-            "Designing and developing backend systems using Golang and Docker",
-            "Implementing microservices architecture to improve application scalability",
-            "Working closely with product managers and UX designers to ensure optimal user experience and functionality of the software"
-        ],
-        "badges": [
-            "Golang",
-            "Docker",
-            "Microservices"
+            "Keyword"
         ]
     }
 ]

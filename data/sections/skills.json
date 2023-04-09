@@ -1,43 +1,8 @@
 [
     {
-        "header": "Languages",
+        "header": "Header",
         "list": [
-            "C",
-            "C++",
-            "C#",
-            "Golang",
-            "Rust",
-            "Java",
-            "Kotlin",
-            "Javascript"
-        ]
-    },
-    {
-        "header": "Databases/APIs",
-        "list": [
-            "SQL",
-            "MongoDB",
-            "DynamoDB",
-            "NoSQL",
-            "Redis",
-            "REST"
-        ]
-    },
-    {
-        "header": "Frameworks",
-        "list": [
-            "NextJS",
-            "React",
-            "Bootstrap"
-        ]
-    },
-    {
-        "header": "Software",
-        "list": [
-            "AWS",
-            "Git",
-            "Github",
-            "Docker"
+            "Skill"
         ]
     }
 ]
