@@ -2,7 +2,7 @@
     {
         "position": "Position",
         "dateRange": "Start - End",
-        "img": "img/acme.png",
+        "img": "img/image.png",
         "company": "Company Name",
         "slug": "company",
         "location": "Location",

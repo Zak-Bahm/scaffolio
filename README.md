@@ -39,7 +39,7 @@ This setup assumes you have `git`, `node`, and `npm` installed.
 When you have everything set up and you would like to deploy it, simply copy the contents of the `dist` folder onto your production webserver or to whichever service you would like to use such as s3.
 
 ## Sections
-These examples are all of the available sections and the format of their JSON files.
+These examples are all of the available sections and the format of their JSON files. This demo version can be viewed by checking out the `demo` branch.
 
 ### About
 ![About Desktop](./examples/about-desktop.png)
